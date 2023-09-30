@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 100%;
+   
+}
+
+nav{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    border-bottom: 5px brown;
+    background-color: rgb(250, 162, 162);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#header>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+#my-nav-search{
+   
+    background-color: #f9f8f8;
+    border-radius: 10px;
+    border:1px solid #f2f2f2; ;
+    padding-inline: 10px;
+    height: 35px;
+}
+#my-nav-search>input{
+    border: none;
+    width: 18vw;
+     text-align: center;
+    background-color:transparent;
+}
+.btn{
+    margin-right:90px ;
+}
+.btn>button{
+    color: #f8f8f8;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+
+}
+.main2{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+/* card{
+    
+} */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: static;
+}
+.card1{
+    width: 300px;
+    box-shadow: 3px 3px 3px rgb(236, 244, 246);
+    position: static;
+}
+.card2{
+    width:250px;
+    box-shadow: 3px 3px 3px rgb(195, 215, 220);
+    position: static;
+}
+.card3{
+    width:250px;
+    box-shadow:  3px 3px 5px rgb(121, 234, 57);
+    position: static;
+}
+.hero{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.bar>a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    font-weight: bolder;
+   
+}
+.box1{
+    width: 200px;
+}
+#hero1{
+    margin-left: 90px;
+    margin-right: 90px;
+    
+   
+}
+ .recipes{
+    background-image: url("Call to Action.svg");
+    /* width: 1440px; 
+    height: 550px; */
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+.bimg{
+    padding-top: 180px;
+}
+#content{
+    padding-top: 260px;
+}
+
+footer{
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.abc{
+    background-color: aquamarine;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 70px;
+    border-radius: 20px;
+}
